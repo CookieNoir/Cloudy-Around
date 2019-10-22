@@ -1,0 +1,8 @@
+English@
+version Version
+versionMessage is written. Are there any great words?
+selLevelMsg Click on the huge button
+launchLightning Cast The Lightning
+selected Selected
+clickSomewhere CLICK SOMEWHERE
+toContinue TO CONTINUE

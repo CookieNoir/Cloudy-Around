@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: f8bbc3aae51c5b74bb9caef6822ad129
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3516501117616642825
+    second: clouds_Atlas_1
+  - first:
+      213: 2716093022551308885
+    second: clouds_Atlas_2
+  - first:
+      213: -2028783730297253067
+    second: clouds_Atlas_3
+  - first:
+      213: -8766269852994990872
+    second: clouds_Atlas_4
+  - first:
+      213: 8358471673052753442
+    second: clouds_Atlas_5
+  - first:
+      213: 3627704099179574064
+    second: clouds_Atlas_6
+  - first:
+      213: -7944860143766906194
+    second: clouds_Atlas_7
+  - first:
+      213: 6975848198170447074
+    second: clouds_Atlas_0
+  - first:
+      213: -5034235014818699672
+    second: clouds_Atlas_8
+  - first:
+      213: 3079592330851673381
+    second: clouds_Atlas_9
+  - first:
+      213: 8616416399128786125
+    second: clouds_Atlas_10
+  - first:
+      213: -8120664946875094755
+    second: clouds_Atlas_11
+  - first:
+      213: 3296429438147193625
+    second: clouds_Atlas_12
+  - first:
+      213: -4858569347924286913
+    second: clouds_Atlas_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clouds_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 319
+        width: 236
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6646b9c197102874b8aa7a034fc27830
+      internalID: 3516501117616642825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 307
+        width: 197
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f4e26f91b2df8419a36d87abb48089
+      internalID: 2716093022551308885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 309
+        width: 231
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa337f0d4df87f4095b3b2d770ce734
+      internalID: -2028783730297253067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 291
+        width: 178
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f3a1287856d754da0e49e6dbd7cc30
+      internalID: -8766269852994990872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 288
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b57f0dd9e3d2941890452fac0fe22e
+      internalID: 8358471673052753442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 73
+        width: 248
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6e4f1464208f14991940d857904f4d
+      internalID: 3627704099179574064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 76
+        width: 341
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c816f29763baa3748b7eae482075f156
+      internalID: -7944860143766906194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 831
+        width: 253
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa469fe64cc5204ea0ab9e977c87751
+      internalID: 6975848198170447074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 823
+        width: 230
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e378093f00661c459495bf0acca01d9
+      internalID: -5034235014818699672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 581
+        width: 308
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf22219912d535a43b2f4bc5ff06cc13
+      internalID: 3079592330851673381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 590
+        width: 277
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a799bebec9ceb4546a582df7a534200d
+      internalID: 8616416399128786125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 598
+        width: 375
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86d7231ec7f51e43ab0f52daf3bbdbb
+      internalID: -8120664946875094755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 830
+        width: 255
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ced32b6a609df4bbaa3eddd208fef9
+      internalID: 3296429438147193625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouds_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 811
+        width: 202
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf378d0eca2064a887cb81feea7266
+      internalID: -4858569347924286913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

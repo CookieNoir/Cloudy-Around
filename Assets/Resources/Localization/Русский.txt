@@ -1,0 +1,8 @@
+Русский@
+version Версия
+versionMessage написана. Есть ли здесь хорошие слова?
+selLevelMsg Нажми на большую кнопку
+launchLightning Пустить Молнию
+selected Выбрано
+clickSomewhere НАЖМИ НА ЭКРАН,
+toContinue ЧТОБЫ ПРОДОЛЖИТЬ
