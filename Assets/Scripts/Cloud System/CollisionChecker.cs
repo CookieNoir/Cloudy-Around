@@ -2,12 +2,12 @@
 [AddComponentMenu("_Cloud System/Collision Checker")]
 public class CollisionChecker : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collider)
     {
-        collision.collider.gameObject.GetComponent<GroundObject>().UpdateCollisions(1);
+        collider.gameObject.GetComponent<GroundObject>().UpdateCollisions(1);
     }
-    void OnCollisionExit(Collision collision)
+    void OnTriggerExit(Collider collider)
     {
-        collision.collider.gameObject.GetComponent<GroundObject>().UpdateCollisions(-1);
+        collider.gameObject.GetComponent<GroundObject>().UpdateCollisions(-1);
     }
 }

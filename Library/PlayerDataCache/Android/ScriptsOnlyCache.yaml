@@ -6,19 +6,22 @@ ScriptsOnlyBuild:
     - CloudWindow
     - CloudsMovement
     - CollisionChecker
+    - DarkScreen
     - FPS
     - GroundTree
     - LanguageButton
     - LanguageCatalog
     - Localizator
     - MainFooterText
-    - MainMenu
     - PauseScreen
+    - SceneChanger
     - SelectedAmount
     - SimpleGroundObject
     - SliderAction
+    - Special
     - TextReplacer
     - UiCloud
+    - UiMovement
     - UiMovingCloud
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
@@ -28,7 +31,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -40,7 +42,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/Level0.unity:
@@ -91,23 +92,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10872}
     - Class: 114
-      Script: {instanceID: 11092}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 11256}
+      Script: {instanceID: 10984}
     - Class: 114
-      Script: {instanceID: 11380}
+      Script: {instanceID: 11096}
     - Class: 114
-      Script: {instanceID: 11528}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11872}
+      Script: {instanceID: 11386}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11984}
+      Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 24714}
+      Script: {instanceID: 11878}
+    - Class: 114
+      Script: {instanceID: 11946}
+    - Class: 114
+      Script: {instanceID: 11990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,27 +195,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10904}
     - Class: 114
-      Script: {instanceID: 11074}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 11204}
+      Script: {instanceID: 11078}
     - Class: 114
-      Script: {instanceID: 11256}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11348}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11528}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 11984}
+      Script: {instanceID: 11710}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 11946}
+    - Class: 114
+      Script: {instanceID: 11990}
+    - Class: 114
+      Script: {instanceID: 12026}
     - Class: 114
       Script: {instanceID: 12028}
+    - Class: 114
+      Script: {instanceID: 12034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -304,7 +315,7 @@ ScriptsOnlyBuild:
     className: MainFooterText
   - hash:
       serializedVersion: 2
-      Hash: 72ff461b6acaf41c620bf3b381fe70b6
+      Hash: 6f4ca73b3c80f9f0f3a291d411f7840c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GroundObject
@@ -328,7 +339,7 @@ ScriptsOnlyBuild:
     className: NetworkIdentity
   - hash:
       serializedVersion: 2
-      Hash: a0a3b45252fe437a475d68d804b510d9
+      Hash: 11ce1bec15b4b94c0a81cdfef465c16e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Translator
@@ -340,7 +351,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 610d5cfaaa6ebaf612367ed50091bb93
+      Hash: 28cc959f9fd45e54bd2383ea6e22f523
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Timer
@@ -374,6 +385,18 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: CallbackExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Editor
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
@@ -448,7 +471,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: a0a3b45252fe437a475d68d804b510d9
+      Hash: 11ce1bec15b4b94c0a81cdfef465c16e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Switcher
@@ -511,7 +534,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MainMenu
+    className: Special
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -550,7 +573,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 67a1eac4afd4d24c35dbf5d8f6a47d50
+      Hash: a088340a759b1abdfa48563b4df110e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Charger
@@ -610,7 +633,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 653fb36e976bf079f54b3450a1ec3ea9
+      Hash: ac10785a587da540a18647a314a3d952
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SimpleGroundObject
@@ -628,6 +651,12 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: d70a60e5e1c3604afb62ebf01a2b491d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UiMovement
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -638,6 +667,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: f4196454574d8c892f58f422f742d4d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickSomewhere
   - hash:
       serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
@@ -652,7 +687,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: a9cbc84e6593c02ac53c8492ee0241a4
+      Hash: 6f8d67d320ec31833a7fd3b55d47e659
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LanguageCatalog
@@ -682,7 +717,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 46350f076775bd2d818757ec7f9b3493
+      Hash: 31b1d10e4ad06aaef7bdc0c7967210d3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GroundTree
@@ -734,6 +769,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d91fcd9ac7bd86d3d771dd6171620fad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneChanger
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -940,18 +981,18 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: fc263cca7903af95d885f4f811407a6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BezierCurve
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f4196454574d8c892f58f422f742d4d7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ClickSomewhere
   platform: 13
   scenePathNames:
   - Assets/Scenes/mainMenu.unity
   - Assets/Scenes/Level0.unity
-  playerPath: C:/Workshop/Cloudy Around Builds/ca015.apk
+  playerPath: C:/Workshop/Cloudy Around Builds/ca041.apk

@@ -1,8 +1,12 @@
 Русский@
 version Версия
 versionMessage написана. Есть ли здесь хорошие слова?
-selLevelMsg Нажми на большую кнопку
+selLevelMsg Нажмите на большую кнопку
 launchLightning Пустить Молнию
 selected Выбрано
 clickSomewhere НАЖМИ НА ЭКРАН,
 toContinue ЧТОБЫ ПРОДОЛЖИТЬ
+selectLanguage Выберите язык
+restart Перезапустить
+settings Настройки
+mainMenu Главное меню

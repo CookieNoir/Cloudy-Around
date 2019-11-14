@@ -6,7 +6,7 @@ public class GroundObject : MonoBehaviour
     public int priority = 0;
 [Tooltip("Local Coordinates")]
     public Vector3 pointOfInterest;
-    protected int collisions = 0;
+    public int collisions = 0;
     public bool isCollided = false;
     public bool hitByLightning = false;
     public virtual void Hit() { }

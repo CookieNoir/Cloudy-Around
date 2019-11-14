@@ -6,3 +6,7 @@ launchLightning Cast The Lightning
 selected Selected
 clickSomewhere CLICK SOMEWHERE
 toContinue TO CONTINUE
+selectLanguage Select language
+restart Restart
+settings Settings
+mainMenu Main menu

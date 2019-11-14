@@ -5,9 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Cloud
-  - Cloud Worker
   - UI Cloud
+  - UI Movement
+  - Special
+  - Dark Screen Canvas
+  - Dark Screen
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - 
   - PostProcessing
   - Clouds
-  - 
+  - Special
   - 
   - 
   - 

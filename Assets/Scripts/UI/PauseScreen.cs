@@ -5,16 +5,23 @@ public class PauseScreen : MonoBehaviour
 {
     public GameObject pauseMenu;
     private UiCloud[] uiClouds;
-    private int uiLength;
+    private UiMovement[] uiMovements;
+    private int uiCloudsLength;
+    private int uiMovementsLength;
     private bool locked = false;
 
     private void Start()
     {
         GameObject[] gos = GameObject.FindGameObjectsWithTag("UI Cloud");
-        uiLength = gos.Length;
-        uiClouds = new UiCloud[uiLength];
-        for (int i = 0; i<uiLength; ++i)
-        uiClouds[i] = gos[i].GetComponent<UiCloud>();
+        uiCloudsLength = gos.Length;
+        uiClouds = new UiCloud[uiCloudsLength];
+        for (int i = 0; i<uiCloudsLength; ++i)
+            uiClouds[i] = gos[i].GetComponent<UiCloud>();
+        gos = GameObject.FindGameObjectsWithTag("UI Movement");
+        uiMovementsLength = gos.Length;
+        uiMovements = new UiMovement[uiMovementsLength];
+        for (int i = 0; i < uiMovementsLength; ++i)
+            uiMovements[i] = gos[i].GetComponent<UiMovement>();
         pauseMenu.SetActive(false);
     }
 
@@ -23,8 +30,10 @@ public class PauseScreen : MonoBehaviour
         if (!locked)
         {
             locked = true;
-            for (int i = 0; i < uiLength; ++i)
+            for (int i = 0; i < uiCloudsLength; ++i)
                 StartCoroutine(uiClouds[i].Fade());
+            for (int i = 0; i < uiMovementsLength; ++i)
+                uiMovements[i].Translate();
             StartCoroutine(TurnOffCooldown());
         }
     }
@@ -36,8 +45,10 @@ public class PauseScreen : MonoBehaviour
             locked = true;
             Time.timeScale = 0f;
             pauseMenu.SetActive(true);
-            for (int i = 0; i < uiLength; ++i)
+            for (int i = 0; i < uiCloudsLength; ++i)
                 StartCoroutine(uiClouds[i].Bloom());
+            for (int i = 0; i < uiMovementsLength; ++i)
+                uiMovements[i].Translate();
             StartCoroutine(TurnOnCooldown());
         }
     }
